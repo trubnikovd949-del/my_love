@@ -416,11 +416,9 @@
 <!-- МОДАЛЬНОЕ ОКНО (секретка) с картинкой -->
 <div id="secretModal" class="modal">
     <div class="modal-content">
-        <div class="secret-image" id="secretImageContainer">
-            <!-- ЗДЕСЬ ВАША КАРТИНКА. ЗАМЕНИТЕ "ваша_картинка.jpg" НА ПУТЬ К ВАШЕМУ ФАЙЛУ -->
-            <img src="7.jpg" alt="Наше фото" id="secretImg" width="80">
-            <!-- Если картинки нет, будет показываться заглушка. Чтобы убрать заглушку, удалите её или замените на реальное фото -->
-        </div>
+        <div class="photo-frame">
+                <img src="7.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
         <h2>💗 Секретик 💗</h2>
         <p>✨ Люблю тебя всегда ✨</p>
         <button class="close-modal">Закрыть</button>
